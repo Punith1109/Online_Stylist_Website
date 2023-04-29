@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login or Signup</title>
+    <style>
+      body {
+        background-color:#FFFFc2;
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        margin: 0;
+        padding: 0;
+      }
+
+      #container {
+        background-color: #fff;
+        border: 1px solid #e6e6e6;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        margin: 50px auto;
+        max-width: 500px;
+        padding: 20px;
+      }
+
+      h1 {
+        color: #333;
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+      }
+
+      label {
+        color: #666;
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 5px;
+        text-align: left;
+        width: 100%;
+      }
+
+      input {
+        border: none;
+        border-bottom: 1px solid #e6e6e6;
+        font-size: 16px;
+        margin-bottom: 20px;
+        padding: 10px;
+        width: 100%;
+      }
+
+      button {
+        background-color: #333;
+        border: none;
+        border-radius: 5px;
+        color: #fff;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 700;
+        padding: 10px 20px;
+        transition: background-color 0.2s ease-in-out;
+        width: 100%;
+      }
+
+      button:hover {
+        background-color: #666;
+      }
+
+      .alt-link {
+        color: #666;
+        font-size: 14px;
+        margin-top: 10px;
+        text-align: center;
+        text-decoration: none;
+      }
+
+      .alt-link:hover {
+        text-decoration: underline;
+      }
+      #divid01 {
+  width: 100px;
+  height: 100px;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  from {background-image: "./pexels-r-fera-432059 (2).jpg";}
+  to {background-image: "./random.jpg";}
+}
+video{
+  width: 100%;
+}
+    </style>
+  </head>
+  <body>
+    <div id="div1">
+    <video autoplay muted loop id="myVideo">
+        <source src="./fastflow.mp4" type="video/mp4">
+      </video></div>
+      
+      <!-- Optional: some overlay text to describe the video -->
+      <div class="content">
+        <button id="myBtn" onclick="myFunction()">Pause</button>
+      </div>
+    <div id="container">
+      <h1>Login or Signup</h1>
+      <form method="post" action="mp-01.html">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Your email address" required>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="Your password" required>
+
+        <button type="submit">Login</button>
+      </form>
+      <a href="./RegistrationForm.html" class="alt-link">Don't have an account? Signup here.</a>
+    </div>
+    <script>
+        // Get the video
+        var video = document.getElementById("myVideo");
+        
+        // Get the button
+        var btn = document.getElementById("myBtn");
+        
+        // Pause and play the video, and change the button text
+        function myFunction() {
+          if (video.paused) {
+            video.play();
+            btn.innerHTML = "Pause";
+          } else {
+            video.pause();
+            btn.innerHTML = "Play";
+          }
+        }
+        </script>
+        <div id="divid01">
+
+<div></div>
+        </div>
+
+</body>
+</html>
+
+
+
+
+
+
+  </body>
+</html>

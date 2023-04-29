@@ -1,0 +1,204 @@
+  body{
+    background-image: url('C:\Users\hp lap-top\Downloads\pexels-joyston-judah-933054.jpg');
+    margin: 0;
+  }
+
+  /* Add the styles for the header section */
+header {
+  background-color: #FCBCD7;
+  text-align: center;
+  padding: 50px;
+}
+
+nav {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  background-color: antiquewhite;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #333;
+  transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+  color: #0077cc;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+button {
+  background-color: #0077cc;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #005c99;
+}
+
+/* Add the styles for the main section */
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+section {
+  margin-bottom: 60px;
+}
+
+h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+li {
+  width: 30%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+li:hover {
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+span {
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+/* Add the styles for the testimonials section */
+section:last-of-type {
+  background-color: #f5f5f5;
+}
+
+section:last-of-type h2 {
+  margin-top: 0;
+}
+
+section:last-of-type ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section:last-of-type li {
+  width: 30%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+section:last-of-type li:hover {
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+}
+
+section:last-of-type img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 50%;
+}
+
+/* The navbar container */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+#section01{
+  background-color: #FFFDD1;
+}
+.bottom-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  background-color: #333;
+  color: #fff;
+}
+
+.bottom-nav a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 100%;
+  text-decoration: none;
+  color: #fff;
+}
+
+.bottom-nav a:hover {
+  background-color: #555;
+}
+
+.bottom-nav i {
+  font-size: 24px;
+  margin-right: 5px;
+}
